@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>calculadora</title>
+	    <script src="calculadora.js"></script>
+     <script src="../clasecalculadora.js"></script>
+	    <link rel="stylesheet" href="calculadora.css">
+</head>
+<body>
+    <input id="resultado" placeholder="...">
+<TABLE BORDER CELLPADDING=1 CELLSPACING=8>
+	<TR>
+
+			<td class="gris"><button class="gris">AC</button></td>  
+			<td class="gris"><button class="gris">+/-</button></td>  
+			<td class="gris"><button class="gris">%</button></td>  
+			<td class="naranja"><button class="naranja" onclick="Signos('/')">/</button></td>   
+	</TR>
+	
+	<TR>
+			<td class="grey"><button class="grey" onclick="Numeros('7')">7</button></td>  
+			<td class="grey"><button class="grey" onclick="Numeros('8')">8</button></td>  
+			<td class="grey"><button class="grey" onclick="Numeros('9')">9</button></td>  
+			<td class="naranja"><button class="naranja" onclick="Signos('*')">*</button></td>   
+	</TR>
+	<TR>
+			<td class="grey"><button class="grey" onclick="Numeros('4')">4</button></td>  
+			<td class="grey"><button class="grey" onclick="Numeros('5')">5</button></td>  
+			<td class="grey"><button class="grey" onclick="Numeros('6')">6</button></td>  
+			<td class="naranja"><button class="naranja" onclick="Signos('-')">-</button></td>   
+	</TR>
+	<TR>
+			<td class="grey"><button class="grey" onclick="Numeros('1')">1</button></td>  
+			<td class="grey"><button class="grey" onclick="Numeros('2')">2</button></td>  
+			<td class="grey"><button class="grey" onclick="Numeros('3')">3</button></td>  
+			<td class="naranja"><button class="naranja" onclick="Signos('+')">+</button></td>   
+	</TR>
+	<TR>
+			<td class="grey"><button class="grey" onclick="Numeros()">0</button></td>  
+			<td class="grey"><button class="grey">.</button></td>  
+			<td class="naranja"><button class="naranja" onclick="igual()">=</button></td>  
+	</TR>
+
+</TABLE>
+    <body>
+        
+</html>

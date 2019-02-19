@@ -1,0 +1,21 @@
+td{
+	border-radius: 60px;
+}
+table{
+	background: black;
+}
+.hola{
+	background: red;
+}
+button{
+	border-radius: 60px;
+}
+.gris{
+	background-color: #a7a6a7;
+}
+.naranja{
+	background-color: #ff9601;
+}
+.grey{
+	background-color: grey;
+}
